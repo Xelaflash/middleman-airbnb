@@ -1,0 +1,59 @@
+<!-- Access data.flats with owner's name as key -->
+<% flat = data.flats[owner] %>
+
+<!-- Inject flat data in template -->
+<%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "img-circle" %>
+<p><%= flat.name %></p>
+<h1><%= flat.description %></h1>
+<p><%= flat.city_name %></p>
+
+
+
+
+
+
+
+ <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 col-sm-offset-4">
+
+          <form action="#">
+              <h1 class="text center">Book now</h1>
+              <div class="row">
+                <div class="col-xs-6">
+                  <div class="form-group">
+                    <label for="first-name">Check in</label>
+                    <input class="form-control" id="checkout" placeholder="entry date" type="text">
+                  </div>
+                </div>
+                <div class="col-xs-6">
+                  <div class="form-group">
+                    <label for="last-name">Check out</label>
+                    <input class="form-control" id="checkout" placeholder="exit date" type="text">
+                  </div>
+                </div>
+
+              </div>
+            <div class="form-group">
+              <label for="email">Your email</label>
+              <input type="email" id="email" class="form-control" placeholder="email" type="text">
+            </div>
+            <div class="form-group">
+              <label for="password">Your password</label>
+              <input type="password" id="password" class="form-control" placeholder="••••••••" type="password">
+            </div>
+
+            <label for="favorite">Number of occupants?</label>
+            <select id="favorite" name="language" class="form-control">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">+ de 4</option>
+            </select>
+
+            <input type="submit" value="Book" class="btn btn-primary">
+          </form>
+        </div>
+      </div>
+    </div>

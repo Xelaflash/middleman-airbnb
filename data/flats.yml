@@ -1,0 +1,60 @@
+Xelaflash:
+  name: "Xela's flat"
+  description: "Charming room in Bordeaux"
+  city_name: "Bordeaux, France"
+  city_slug: "bordeaux"
+  wifi: true
+  rating: 5
+  pool: true
+  party: false
+  bar: "Open Bar"
+VictorSass:
+  name: "Bill's home"
+  description: Small flat in Chollet
+  city_name: "Tokyo, Japan"
+  city_slug: "tokyo"
+  pool: false
+  wifi: true
+  rating: 3
+  party: true
+  bar: "cheap alcohol"
+alixdelb:
+  name: Alix's home
+  description: Nice flat in Piccadilly
+  city_name: "London, UK"
+  city_slug: "london"
+  pool: false
+  wifi: true
+  party: true
+  rating: 4
+  bar: "if you buy you'll have"
+Smabi:
+  name: La tite maison
+  description: cool house bro
+  city_name: "Barcelona, Spain"
+  city_slug: "barcelona"
+  pool: true
+  wifi: false
+  party: true
+  rating: 5
+  bar: "Buy it you won't regret it"
+ClaudineP435433:
+  name: La maison du bonheur
+  description: charming country house
+  city_name: "Lisbon, Portugal"
+  city_slug: "lisbon"
+  pool: true
+  wifi: false
+  party: false
+  rating: 4
+  bar: "No alcohol policy"
+DamienBoussardon:
+  name: Party flat ma gueule
+  description: Nice flat for party freaks
+  city_name: "Bali, Indonesia"
+  city_slug: "bali"
+  pool: true
+  wifi: true
+  party: true
+  rating: 1
+  bar: "free free free"

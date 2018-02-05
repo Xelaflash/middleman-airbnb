@@ -1,15 +1,15 @@
 <div id="team">
   <div class="team-content">
     <ul class="list-inline text-center">
-      <% data.team.each do |user| %>
+      <% data.teams.each do |team| %>
         <li>
-          <% link_to "https://kitt.lewagon.com/alumni/#{user.github_nickname}", target: "_blank" do %>
-            <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle" %>
+          <% link_to "https://kitt.lewagon.com/alumni/#{team.github_nickname}", target: "_blank" do %>
+            <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{team.github_nickname}", class: "img-circle" %>
           <% end %>
-          <h2><%= user.name %></h2>
+          <h2><%= team.name %></h2>
           <p>
-            <% link_to "https://github.com/#{user.github_nickname}", target: "_blank" do %>
-              <i class="fa fa-github"></i> <%= user.github_nickname %>
+            <% link_to "https://github.com/#{team.github_nickname}", target: "_blank" do %>
+              <i class="fa fa-github"></i> <%= team.github_nickname %>
             <% end %>
           </p>
         </li>
