@@ -5,12 +5,17 @@
   align-items: center;
   justify-content: space-around;
   text-align: center;
+  height: 117px;
   p {
-    margin-top: 1.5em;
+    margin-top: 0.5em;
   }
   a {
     color: rgba(0,0,0,0.4);
     font-weight: bold;
     font-size: 16px;
   }
+}
+
+.logo-wagon {
+  margin-top: 10px;
 }
