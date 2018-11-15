@@ -7,7 +7,7 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title></title>
-    <link href="../stylesheets/application-58b8596b.css" rel="stylesheet" />
+    <link href="../stylesheets/application-922b2323.css" rel="stylesheet" />
     <script src="../javascripts/application-93de88c9.js"></script>
     <link href="../images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
@@ -59,7 +59,7 @@
     <!-- Access data.flats with owner's name as key -->
 
 <!-- Inject flat data in template -->
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col-xs-12 col-sm-4 col-sm-offset-4">
       <img src="https://kitt.lewagon.com/placeholder/users/DamienBoussardon" class="img-circle" alt="Damienboussardon" />
@@ -70,23 +70,22 @@
   </div>
 </div>
 
- <div class="container">
+ <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-12 col-sm-4 col-sm-offset-4">
-
+        <div class="form-section col-xs-12 col-sm-4 col-sm-offset-4">
           <form action="#">
               <h1 class="text center">Book now</h1>
               <div class="row">
                 <div class="col-xs-6">
                   <div class="form-group">
-                    <label for="first-name">Check in</label>
-                    <input class="form-control" id="checkout" placeholder="entry date" type="text">
+                    <label>Check in</label>
+                    <input class="form-control" id="checkout" placeholder="Entry Date" type="text">
                   </div>
                 </div>
                 <div class="col-xs-6">
                   <div class="form-group">
-                    <label for="last-name">Check out</label>
-                    <input class="form-control" id="checkout" placeholder="exit date" type="text">
+                    <label>Check out</label>
+                    <input class="form-control" id="checkout" placeholder="Exit Date" type="text">
                   </div>
                 </div>
 
@@ -108,8 +107,7 @@
               <option value="4">4</option>
               <option value="5">+ de 4</option>
             </select>
-
-            <input type="submit" value="Book" class="btn btn-primary">
+            <button type="submit" value="Book" class="btn btn-primary">Book Now</button>
           </form>
         </div>
       </div>
